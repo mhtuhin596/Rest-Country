@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Country information By TUHIN</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+
+	<!--font family-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<div class="world">
+		<p>Where in the world?</p>
+		<p>Made By Tuhin</p>
+	</div>
+
+	<form id="form">
+		<div class="search">
+			<input type="text" name="userInput" placeholder="search a country">
+		</div>
+
+			<div>
+				<select id="regionFilter">
+       <option value="" id="all">All regions</option>
+       <option value="Africa">Africa</option>
+       <option value="Americas">Americas</option>
+       <option value="Asia">Asia</option>
+       <option value="Europe">Europe</option>
+       <option value="Oceania">Oceania</option>
+     </select>
+			</div>
+
+	</form>
+
+	<div id="root"></div>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
